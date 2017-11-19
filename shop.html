@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+
+<!-- Headers -->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width"/>
+<meta name="keywords" content="Tech Mart, Tech Smart, Computer, it, IT, solution, store, online, memes"/>
+<meta name="author" content="Nicholas Dale">
+<meta name="Description" content="At Tech Mart, we sell all your generic IT products!">
+<link href="./css/main.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<title>Tech Mart | Shop</title>
+<script>
+	 var visible = false;
+	  $(document).ready(function() {
+      $("#showaccount").click(function(){
+		  if(visible == false) {
+		  	document.getElementById("account").style.visibility = "visible";
+			visible = true;
+		  } else {
+			document.getElementById("account").style.visibility = "hidden";
+			visible = false;
+		  }
+      });
+   });
+	</script>
+<script>
+	 $(document).ready(function() {
+      $("#closeaccount").click(function(){
+		  if(visible == false) {
+		  	document.getElementById("account").style.visibility = "visible";
+			visible = true;
+		  } else {
+			document.getElementById("account").style.visibility = "hidden";
+			visible = false;
+		  }
+      });
+   });
+	</script>
+</head>
+
+<body>
+<!-- Page navigation. These all float above the content -->
+<header> <img src="img/depositphotos_1591045-3d-gear@0,25x.jpg" width="48" height="48" alt="" id="showaccount"/>
+  <div class="container"> <a href="index.html">
+    <h1><span class="highlight">Tech</span> Mart</h1>
+    </a>
+    <h2>Where you think <span class="highlight"> Tech </span> Smart</h2>
+  </div>
+</header>
+<div id="account">
+  <p>Account name</p>
+  <ul>
+    <li>Account</li>
+    <li>Settings</li>
+    <li>Log out</li>
+    <li id="closeaccount">Close</li>
+  </ul>
+</div>
+<div class="navigation">
+  <nav class="sidenav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a class="emphasis" href="shop.html">Shop</a></li>
+      <li><a href="trade.html">Trade</a></li>
+      <li><a href="support.html">Support</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="jobs.html">Jobs</a></li>
+    </ul>
+  </nav>
+  <div id="social-media"> <a href="https://twitter.com/JPC_ACT"> <img title="Twitter" alt="Twitter" src="https://socialmediawidgets.files.wordpress.com/2014/03/01_twitter1.png" width="35" height="35" /> </a> <a href="https://www.facebook.com/sjp2c/"> <img title="Facebook" alt="JPC Facebook" src="https://socialmediawidgets.files.wordpress.com/2014/03/02_facebook1.png" width="35" height="35" /> </a> <a href="https://www.jpc.act.edu.au"> <img title="JPC" alt="JPC website" src="img/JPClogo64.jpg" width="35" height="35" /> </a> </div>
+  <div id="checkout"> <a href="index.html"> <img src="img/Checkout-icon@0,25x.png" alt="Checkout Now" width="64" height="64"> </a> </div>
+  <div class="main-container">
+    <div class="fixer-container">
+      <nav class="storenav">
+        <ul>
+          <li><a href="shop/desktop.html">Desktop Computers</a></li>
+          <li><a href="shop/laptop.html">Laptop Computers</a></li>
+          <li><a href="shop/gaming.html">Gaming</a></li>
+          <li><a href="shop/accessories.html">Accessories</a></li>
+          <li><a href="shop/enterprise.html">Enterprise</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+<!-- Page content. Everything should be in its own section -->
+
+<section>
+ <br>
+  <h2>Here at Techmart we pride ourselves on offering many low cost consumer electronics. Click on one of the above catagories to begin your experience. </h2>
+  <br>
+  <h2>Remember, at Techmart we think Tech Smart!</h2>
+  <p>Once purchased, checkout using the checkout button. </p>
+  <br>
+  <h1>Shipping</h1>
+  <p>We ship internationally. Shipping details and costs will become available upon beginning the check out process. </p>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>Page created by Student 810202 from JPC.<span id="copyright">Copyright 2017 | All rights reserved</span></p>
+</footer>
+</body>
+</html>

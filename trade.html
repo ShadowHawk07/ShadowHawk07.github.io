@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+
+<!-- Headers -->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width"/>
+<meta name="keywords" content="Tech Mart, Tech Smart, Computer, it, IT, solution, store, online, memes"/>
+<meta name="author" content="Nicholas Dale">
+<meta name="Description" content="At Tech Mart, we sell all your generic IT products!">
+<link href="./css/main.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<title>Tech Mart | Trade</title>
+<script>
+	 var visible = false;
+	  $(document).ready(function() {
+      $("#showaccount").click(function(){
+		  if(visible == false) {
+		  	document.getElementById("account").style.visibility = "visible";
+			visible = true;
+		  } else {
+			document.getElementById("account").style.visibility = "hidden";
+			visible = false;
+		  }
+      });
+   });
+	</script>
+<script>
+	 $(document).ready(function() {
+      $("#closeaccount").click(function(){
+		  if(visible == false) {
+		  	document.getElementById("account").style.visibility = "visible";
+			visible = true;
+		  } else {
+			document.getElementById("account").style.visibility = "hidden";
+			visible = false;
+		  }
+      });
+   });
+	</script>
+</head>
+
+<body>
+<!-- Page navigation. These all float above the content -->
+<header> <img src="img/depositphotos_1591045-3d-gear@0,25x.jpg" width="48" height="48" alt="" id="showaccount"/>
+<div class="container"> <a href="index.html">
+    <h1><span class="highlight">Tech</span> Mart</h1>
+    </a>
+    <h2>Where you think <span class="highlight"> Tech </span> Smart</h2>
+  </div>
+</header>
+<div id="account">
+  <p>Account name</p>
+  <ul>
+    <li>Account</li>
+    <li>Settings</li>
+    <li>Log out</li>
+    <li id="closeaccount">Close</li>
+  </ul>
+</div>
+<div class="navigation">
+  <nav class="sidenav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a class="emphasis" href="trade.html">Trade</a></li>
+      <li><a href="support.html">Support</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li><li><a href="jobs.html">Jobs</a></li>
+    </ul>
+  </nav>
+	 <div id="social-media">
+		<a href="https://twitter.com/JPC_ACT">
+		<img title="Twitter" alt="Twitter" src="https://socialmediawidgets.files.wordpress.com/2014/03/01_twitter1.png" width="35" height="35" />
+		</a>
+		<a href="https://www.facebook.com/sjp2c/">
+		<img title="Facebook" alt="JPC Facebook" src="https://socialmediawidgets.files.wordpress.com/2014/03/02_facebook1.png" width="35" height="35" />
+		</a>
+		<a href="https://www.jpc.act.edu.au">
+		<img title="JPC" alt="JPC website" src="img/JPClogo64.jpg" width="35" height="35" />
+		</a>
+	</div>
+</div>
+<!-- Page content. Everything should be in its own section -->
+
+<section>
+	<h1>Trading is currently under construction</h1>
+	<h2>See you soon for a revolutionary way to trade your tech. At Tech Mart, where you think Tech Smart.</h2>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>Page created by Student 810202 from JPC.<span id="copyright">Copyright 2017 | All rights reserved</span></p>
+</footer>
+</body>
+</html>

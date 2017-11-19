@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+
+<!-- Headers -->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width"/>
+<meta name="keywords" content="Tech Mart, Tech Smart, Computer, it, IT, solution, store, online, memes"/>
+<meta name="author" content="Nicholas Dale">
+<meta name="Description" content="At Tech Mart, we sell all your generic IT products!">
+<link href="../css/main.css" rel="stylesheet" type="text/css">
+<script src="../jQueryAssets/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../script.js"></script>
+<title>Tech Mart | Desktop Computers</title>
+<script>
+	 var visible = false;
+	  $(document).ready(function() {
+      $("#showaccount").click(function(){
+		  if(visible == false) {
+		  	document.getElementById("account").style.visibility = "visible";
+			visible = true;
+		  } else {
+			document.getElementById("account").style.visibility = "hidden";
+			visible = false;
+		  }
+      });
+   });
+	</script>
+<script>
+	 $(document).ready(function() {
+      $("#closeaccount").click(function(){
+		  if(visible == false) {
+		  	document.getElementById("account").style.visibility = "visible";
+			visible = true;
+		  } else {
+			document.getElementById("account").style.visibility = "hidden";
+			visible = false;
+		  }
+      });
+   });
+	</script>
+</head>
+
+<body>
+<!-- Page navigation. These all float above the content -->
+<header> <img src="../img/depositphotos_1591045-3d-gear@0,25x.jpg" width="48" height="48" alt="" id="showaccount"/>
+<div class="container"> <a href="../index.html">
+    <h1><span class="highlight">Tech</span> Mart</h1>
+    </a>
+    <h2>Where you think <span class="highlight"> Tech </span> Smart</h2>
+  </div>
+</header>
+<div id="account">
+  <p>Account name</p>
+  <ul>
+    <li>Account</li>
+    <li>Settings</li>
+    <li>Log out</li>
+    <li id="closeaccount">Close</li>
+  </ul>
+</div>
+<div class="navigation">
+  <nav class="sidenav">
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a class="emphasis" href="../shop.html">Shop</a></li>
+      <li><a href="../trade.html">Trade</a></li>
+      <li><a href="../support.html">Support</a></li>
+      <li><a href="../about.html">About Us</a></li>
+      <li><a href="../contact.html">Contact Us</a></li>
+      <li><a href="../jobs.html">Jobs</a></li>
+    </ul>
+  </nav>
+  <div class="main-container">
+    <div class="fixer-container">
+      <nav class="storenav">
+        <ul>
+          <li><a class="dark" href="desktop.html">Desktop Computers</a></li>
+          <li><a href="laptop.html">Laptop Computers</a></li>
+          <li><a href="gaming.html">Gaming</a></li>
+          <li><a href="accessories.html">Accessories</a></li>
+          <li><a href="enterprise.html">Enterprise</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+<!-- Page content. Everything should be in its own section -->
+
+<section>
+	<h1>Welcome to our range of affordable and powerful desktop computers</h1>
+	<h2>Unfortunately we couldn't afford the licensing costs for the actual brands. </h2>
+	<div class="storegallery">
+		<img src="../img/alienware.jpg" width="300" height="200" alt="">
+		<div class="desc">Gaming "performance" <br>Price: $799-5999</div>
+	</div>
+	<div class="storegallery">
+		<img src="../img/apple.jpg" width="300" height="200" alt="">
+		<div class="desc">Expensive but look nice <br>Price: $1199-7999</div>
+	</div>
+	<div class="storegallery">
+		<img src="../img/dell.jpg" width="300" height="200" alt="">
+		<div class="desc">Who buys a dell desktop? <br>Price: $399-6999</div>
+	</div>
+	<div class="storegallery">
+		<img src="../img/HP.jpg" width="300" height="200" alt="">
+		<div class="desc">HP. <br>Price: $799-999</div>
+	</div>
+	<div class="storegallery">
+		<img src="../img/acer.jpg" width="300" height="200" alt="">
+		<div class="desc">Acer. <br>Price: $399-1899</div>
+	</div>
+	
+	<h1 id="notsponsered">MICROSOFT</h1>
+	<p>Paid for by Microsoft Corp</p>
+	<h2>The all new revolutionary desktop computer from Microsoft featuring:</h2>
+	
+	<!-- This section is literally copied from the microsoft store page cause I thought it was funny -->
+	<span style="font-variant-caps:normal; letter-spacing:normal; orphans:auto; text-align:start; text-indent:0px; text-transform:none; white-space:pre-line; widows:auto; word-spacing:0px; -webkit-text-size-adjust:auto; -webkit-text-stroke-width:0px; background-color:rgb(255, 255, 255); display:inline !important; float:none; font-family:SegoeUI, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:15px; color:rgb(0, 0, 0); font-style:normal; font-weight:normal; ">• 6th Gen Intel Core i5, 8GB RAM • Ultra-thin 28-inch adjustable PixelSense Display • Surface Pen, Keyboard and Mouse included • Windows 10 Pro</span>
+	
+	<h1>Find out more at the Microsoft <a id="desktopmicrosoftlink" href="https://www.microsoft.com/en-au/store/d/product/8SJ2VJ3X6L59/BBQ4"><span class="highlight">Store</span></a></h1> 
+	<style>#desktopmicrosoftlink {
+		text-decoration: none;
+		}
+	</style>
+	
+<div class="storegallery">
+	  <img src="../img/surfacedesktop-1.jpeg" width="300" height="200" alt="">
+	</div>
+	<div class="storegallery">
+		<img src="../img/surfacedesktop-2.jpeg" width="300" height="200" alt="">
+	</div>
+	<div class="storegallery">
+		<img src="../img/surfacedesktop-3.jpeg" width="300" height="200" alt="">
+	</div>
+	<div class="storegallery">
+		<img src="../img/surfacedesktop-4.jpeg" width="300" height="200" alt="">
+	</div>
+	<div class="storegallery">
+		<img src="../img/surfacedesktop-5.jpeg" width="300" height="200" alt="">
+	</div>
+	<div class="storegallery">
+		<img src="../img/surfacedesktop-6.jpeg" width="300" height="200" alt="">
+	</div>
+	<div class="storegallery">
+		<img src="../img/surfacedesktop-7.jpeg" width="300" height="200" alt="">
+	</div>
+	
+	
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>Page created by Student 810202 from JPC.<span id="copyright">Copyright 2017 | All rights reserved</span></p>
+</footer>
+</body>
+</html>

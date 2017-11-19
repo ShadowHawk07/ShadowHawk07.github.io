@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+
+<!-- Headers -->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width"/>
+<meta name="keywords" content="Tech Mart, Tech Smart, Computer, it, IT, solution, store, online, memes"/>
+<meta name="author" content="Nicholas Dale">
+<meta name="Description" content="At Tech Mart, we sell all your generic IT products!">
+<link href="./css/main.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<title>Tech Mart | About Us</title>
+<script>
+	 var visible = false;
+	  $(document).ready(function() {
+      $("#showaccount").click(function(){
+		  if(visible == false) {
+		  	document.getElementById("account").style.visibility = "visible";
+			visible = true;
+		  } else {
+			document.getElementById("account").style.visibility = "hidden";
+			visible = false;
+		  }
+      });
+   });
+	</script>
+<script>
+	 $(document).ready(function() {
+      $("#closeaccount").click(function(){
+		  if(visible == false) {
+		  	document.getElementById("account").style.visibility = "visible";
+			visible = true;
+		  } else {
+			document.getElementById("account").style.visibility = "hidden";
+			visible = false;
+		  }
+      });
+   });
+	</script>
+</head>
+
+<body>
+<!-- Page navigation. These all float above the content -->
+<header> <img src="img/depositphotos_1591045-3d-gear@0,25x.jpg" width="48" height="48" alt="" id="showaccount"/>
+<div class="container"> <a href="index.html">
+    <h1><span class="highlight">Tech</span> Mart</h1>
+    </a>
+    <h2>Where you think <span class="highlight"> Tech </span> Smart</h2>
+  </div>
+</header>
+<div id="account">
+  <p>Account name</p>
+  <ul>
+    <li>Account</li>
+    <li>Settings</li>
+    <li>Log out</li>
+    <li id="closeaccount">Close</li>
+  </ul>
+</div>
+<div class="navigation">
+  <nav class="sidenav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="trade.html">Trade</a></li>
+      <li><a href="support.html">Support</a></li>
+      <li><a class="emphasis" href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li><li><a href="jobs.html">Jobs</a></li>
+    </ul>
+  </nav>
+	 <div id="social-media">
+		<a href="https://twitter.com/JPC_ACT">
+		<img title="Twitter" alt="Twitter" src="https://socialmediawidgets.files.wordpress.com/2014/03/01_twitter1.png" width="35" height="35" />
+		</a>
+		<a href="https://www.facebook.com/sjp2c/">
+		<img title="Facebook" alt="JPC Facebook" src="https://socialmediawidgets.files.wordpress.com/2014/03/02_facebook1.png" width="35" height="35" />
+		</a>
+		<a href="https://www.jpc.act.edu.au">
+		<img title="JPC" alt="JPC website" src="img/JPClogo64.jpg" width="35" height="35" />
+		</a>
+	</div>
+</div>
+<!-- Page content. Everything should be in its own section -->
+
+<section>
+	<article id="main-col">
+		<h1>Tech mart was founded in 2017</h1>
+		<h2>We bring you the latest in affordable and awesome computer things. </h2>
+		<p>Unfortunately we ran out of money to finish writing the long and glorous history of our companies 7 week existance, so here's a GIF.</p>
+		<img class="gallery" src="img/magic.gif" alt="">
+		<h2>By the way</h2>
+		<p>Did you know that every image on this site is optimised to fit the resolution? That's thinking Tech Smart!</p>
+	</article>
+	<aside id="sidebar">
+		<h2>We were founded by Joe Biden, who has a great interest in Technology. </h2>
+		<div class="gallery">
+			<img src="img/joebiden.jpg" alt="" width="300" height="200">
+			<div class="desc">Joe Biden, Our Founder</div>
+		</div>
+		<div class="gallery">
+			<img src="img/good-man.jpg" alt="" width="300" height="200">
+			<div class="desc">Joebama, Our head of customer support</div>
+		</div>
+		<div class="gallery">
+			<img src="img/good-man.jpg" alt="" width="300" height="200">
+			<div class="desc">Joebama, Our head of technical excellence</div>
+		</div>
+		
+	</aside>
+	
+	
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>Page created by Student 810202 from JPC.<span id="copyright">Copyright 2017 | All rights reserved</span></p>
+</footer>
+</body>
+</html>
